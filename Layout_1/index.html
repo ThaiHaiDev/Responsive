@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./grid.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .item {
+            background-color: blue;
+            text-align: center;
+            font-size: 40px;
+            min-height: 380px;
+            line-height: 380px;
+        }
+
+        .item-product {
+            background-color: blue;
+            text-align: center;
+            font-size: 40px;
+            min-height: 340px;
+            line-height: 340px;
+        }
+
+        .ss {
+            background-color: blue;
+            text-align: center;
+            font-size: 20px;
+            min-height: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid wide">
+        <div class="row">
+            <div class="col l-3 m-6 c-12">
+                <div class="item">Item 1</div>
+            </div>
+            <div class="col l-3 m-6 c-12">
+                <div class="item">Item 2</div>
+            </div>
+            <div class="col l-3 m-6 c-12">
+                <div class="item">Item 3</div>
+            </div>
+            <div class="col l-3 m-6 c-12">
+                <div class="item">Item 4</div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col l-2 m-0">
+                <div class="item">Category</div>
+            </div>
+            <div class="col l-10">
+                <div class="row">
+                    <div class="col l-12">
+                        <div class="ss">Sap xep theo</div>
+                    </div>
+                </div>
+                <!-- <div class="item">Product</div> -->
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="item-product">Item 1</div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="item-product">Item 2</div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="item-product">Item 3</div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="item-product">Item 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
